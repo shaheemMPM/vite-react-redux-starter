@@ -6,7 +6,7 @@ import {
 	fetchAsyncMovieOrShowDetail,
 	getSelectedMovieOrShow,
 	removeSelectedMovieOrShow,
-} from '../../redux/movies/movieSlice';
+} from '/src/redux/movies/movieSlice';
 
 const MovieDetail = () => {
 	const { imdbID } = useParams();

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import {
 	fetchAsyncMovies,
 	fetchAsyncShows,
-} from '../../redux/movies/movieSlice';
-import user from '../../images/user.png';
+} from '/src/redux/movies/movieSlice';
+import user from '/src/images/user.png';
 import './Header.scss';
 
 const Header = () => {

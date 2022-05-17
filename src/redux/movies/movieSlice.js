@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import movieApi from '../../common/apis/movieApi';
+import movieApi from '/src/common/apis/MovieApi';
 const APIKey = import.meta.env.VITE_OMDB_API_KEY;
 
 export const fetchAsyncMovies = createAsyncThunk(

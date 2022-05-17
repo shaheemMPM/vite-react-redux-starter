@@ -1,9 +1,9 @@
 import React from 'react';
 import Slider from 'react-slick';
 import { useSelector } from 'react-redux';
-import { SliderSettings } from '../../common/settings';
-import { getAllMovies, getAllShows } from '../../redux/movies/movieSlice';
-import MovieCard from '../MovieCard/MovieCard';
+import { SliderSettings } from '/src/common/settings';
+import { getAllMovies, getAllShows } from '/src/redux/movies/movieSlice';
+import MovieCard from '/src/components/MovieCard/MovieCard';
 import './MovieListing.scss';
 
 const MovieListing = () => {
